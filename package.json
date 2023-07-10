@@ -1,0 +1,28 @@
+{
+  "name": "festivalmusica_inicio",
+  "version": "1.0.0",
+  "description": "Proyeto con Gulp, SASS y HTML",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YDROPEROP/Festival-de-musica.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Yiver Ropero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YDROPEROP/Festival-de-musica/issues"
+  },
+  "homepage": "https://github.com/YDROPEROP/Festival-de-musica#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.63.6"
+  }
+}
