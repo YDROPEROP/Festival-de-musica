@@ -1,0 +1,36 @@
+.video {
+  position: relative;
+  max-height: 70rem;
+  overflow: hidden;
+}
+.video .overlay {
+  position: absolute;
+  background: rgb(35, 27, 165);
+  background: linear-gradient(254deg, rgba(35, 27, 165, 0.5411414566) 0%, rgba(226, 0, 255, 0.3254551821) 47%);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.video video {
+  width: 100%;
+  display: block;
+}
+
+.contenido-video {
+  z-index: 1;
+}
+.contenido-video h2 {
+  color: #ffffff;
+  font-size: 7rem;
+  margin: 0;
+}
+.contenido-video p {
+  background-color: rgba(255, 85, 51, 0.4666666667);
+  display: inline-block;
+  padding: 1rem 2rem;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 2.4rem;
+}

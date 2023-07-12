@@ -1,5 +1,7 @@
-$rojo: rgb(36, 151, 124);
+//forma antigua de importar otras aras de trabajo.
+//@import 'base/variables';
+//@import 'contenido/contenido';
+//Nueva forma
 
-body{
-    background-color: $rojo;
-}
+@use 'base';
+@use 'layout';
